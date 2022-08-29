@@ -9,7 +9,7 @@ function afterSubmit(e){
     //     number: stuNum.value,
     // };
     // console.log(JSON.stringify(stu_num));
-    const url = "https://script.google.com/macros/s/AKfycbw8OJqtniMXCCO-b1sBDBSGVKGe6HYOnwJNU0FuFTBOE82q8oditu25aggFvUZHiZklIQ/exec" + '?number=' + stuNum.value;
+    const url = "https://script.google.com/macros/s/AKfycbz2vNrmZZLnnUIXdrX8hTlZ3WIGnzkh1gFn1E0sG8JIyJ73jePQWXkAXwAKfvHkIkMQbg/exec" + '?number=' + stuNum.value;
     fetch(url)
     .then(d => d.json())
     .then(d => {
